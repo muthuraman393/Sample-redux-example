@@ -1,0 +1,171 @@
+<div class="topsec" ng-class="{'mintopsec':boolChangeClass}"  ngif="boolChangeClass">
+    <p ng-class="{'mintopheader':boolChangeClass,'mintopsecp':boolChangeClass}">Mailbox</p>
+    <div class="searchbut" ng-class="{'minsearchbut':boolChangeClass}">
+        <div class="container-1">
+            <span class="icon">
+                <i class="fa fa-search"></i>
+            </span>
+            <input type="search" id="search" placeholder="Search" ng-model="query[queryBy]" />
+        </div>
+    </div>
+</div>
+<div class="emailoptions" ng-class="{'mintopemailoptions':boolChangeClass}">
+    <div class="leftoptions" ng-class="{'mintopleftoptions':boolChangeClass,'mintopheader':boolChangeClass}">
+        <div class="tickbox" ng-class="{'tickboxunsel':tickboxunselected,'mintoptickbox':boolChangeClass}">
+            <input type="checkbox" value="None" id="tickbox" name="check" ng-model="selectedAll" ng-click="checkAll()" />
+            <label for="tickbox"></label>
+        </div>
+        <div class="faicons" ng-class="{'mintopfaicons':boolChangeClass}">
+            <div class="f1 folder">
+                <i class="fa fa-foldernew"></i>
+            </div>
+            <div class="f1 label">
+                <i class="fa fa-label"></i>
+            </div>
+            <div class="vr"></div>
+            <div class="f2 smalltrash">
+                <i class="fa fa-smalltrash"></i>
+            </div>
+            <div class="f2 warning">
+                <i class="fa fa-warng"></i>
+            </div>
+        </div>
+    </div>
+    <div class="filter" ng-class="{'mintopfilter':boolChangeClass}">
+        <div>
+            <p>Filter :</p>
+            <div class="sort"> check all 
+                <span>
+                    <i class="fa fa-sort-desc"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="clear: both;"></div>
+<div ng-hide="recordloader" class="spinloader"></div>
+<div class="tablelist" ng-style="style()" resize scroll ng-class="{min:boolChangeClass}" ng-hide="!recordloader">
+    <table>
+        <tbody
+            <tr ng-repeat="item in list2  | filter:query" >
+                <td class="tdtickbox">
+                    <div class="tickbox" ng-click="$event.stopPropagation();">
+                        <input type="checkbox" value="None" id="{{$index}}" name="check" ng-model="item.Selected" ng-change="stateChanged($index,item.Selected)" />
+                        <label for="{{$index}}"></label>
+                        <!--ng-click="innermailopensend();"-->
+                    </div>
+                </td>
+                <td class="tdstar">
+                    <div ng-class="{'star': {{item.tdstarcls}}, 'glowstar': !{{item.tdstarcls}}}"></div>
+                </td>
+                <td class="tdavatar">
+                    <div ng-class="{'avatar': {{item.avatar}}, 'dpname': !{{item.avatar}}}">
+                        <span>M</span>
+                    </div>
+                </td> 
+                <td class="previewsubject"  ng-click="innermailopen($index);$event.stopPropagation();" >
+                    <div class="subject">{{item.subject}}{{list2[$index].visibleinnerreadmail}}
+          </div>
+                    <p>{{item.text}}</p>
+                </td>
+                <td class="tdlabels">
+                    <div class="labels">
+                        <ul>
+                            <li ng-class="{'attachments': {{item.attach}}}"></li>
+                            <li class="time">{{item.time}}</li>
+                        </ul>
+                        <ul>
+                            <li class="labelsymb">
+                                <div class="countlabel btn-round {{item.labelcolor}}"></div>
+                            </li>
+                            <li class="labelname">{{item.labelname}}</li>
+                        </ul>
+                    </div>
+                  <mail-template class="innermail"  ng-style="sidebarstyle()" resize ng-if="list2[$index].visibleinnerreadmail == 'open';"  visibleinfo="{{$index}}" datainfo="list2" ></mail-template>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="composeo" ng-click="composeopen()">
+    <div class="pencil" ng-hide="visiblepencil"></div>
+    <div class="cross" ng-hide="visiblecross"></div>
+</div>
+<div class="composeform" ng-hide="visiblecompose" data-jqyoui-options="{containment:'.wrapper'}" data-drag="true" jqyoui-draggable="{animate:true}" data-jqyoui-options="{revert: 'false'}">
+    <div class="formheader">
+        <p>Compose New Mail</p>
+        <span class="minmise" ng-click="composeclose()"></span>
+    </div>
+    <form>
+        <div class="composefield tofield">
+            <label>To</label>
+            <input name="to" id="to">
+                <span class="cc">Add CC</span>
+            </div>
+            <div class="composefield subjectfield">
+                <label>Subject</label>
+                <textarea class="Subject" placeholder="Enter Text"></textarea>
+            </div>
+            <div class="composefield sendarea">
+                <ul>
+                    <li>
+                        <div class="editoroptions">
+                            <ul>
+                                <li>
+                                    <a href="index.html">
+                                        <i class="bold"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.html">
+                                        <i class="italic"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.html">
+                                        <i class="underline"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.html">
+                                        <i class="justify"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.html">
+                                        <i class="dotted"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.html">
+                                        <i class="indent1"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.html">
+                                        <i class="indent2"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.html">
+                                        <i class="attach"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.html">
+                                        <i class="link"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="optionsandbut">
+                        <a class="sendmail" href="">Send</a>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+    <!--innermail starting 
+    <div>
+    </div>-->
