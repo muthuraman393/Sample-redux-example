@@ -1,0 +1,62 @@
+<div class="innermailheader">
+    <p>{{list[visibleinfo].subject}}...</p>
+    <div class="cornericons">
+        <div class="cross" ng-click="innermailclose(visibleinfo);" ></div>
+        <div class="clearfix"></div>
+        <div ng-class="{'opacitycls': (visibleinfo==0) }"  class="leftarrow" ng-click="innermailprev(visibleinfo);"></div>
+        <div class="rightarrow" ng-click="innermailnext(visibleinfo);"></div>
+    </div>
+</div>
+<div class="maildetails">
+    <div class="avatardet">
+        <div class="avatar"></div>
+        <div class="name">Madison christopher</div>
+        <div class="email">
+            <p class="fromemail">madison.christopher@gmail.com</p>
+            <p>to</p>
+            <p class="toemail">me</p>
+            <div class="labeldet">
+                <ul>
+                    <li class="labelsymb">
+                        <div class="countlabel btn-round {{list[visibleinfo].labelcolor}}"></div>
+                    </li>
+                    <li class="labelname">{{list[visibleinfo].labelname}}{{visibleinfo-1}}--{{visibleinfo+1 | number}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="timedet">
+        <div class="time">3 minutes ago</div>
+        <div ng-class="{'star': list[visibleinfo].tdstarcls, 'glowstar': !list[visibleinfo].tdstarcls}"></div>
+        <div class="reply" ng-class="{'toreply':toreplyclass}"></div>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="mailcontent" ng-style="mailcontentbarstyle()" resize>
+    <p>{{list[visibleinfo].text}}</p>
+</div>
+<div class="attachmenttab">
+    <div class="attachments"></div>
+    <p>Attachments</p>
+    <div class="separate"></div>
+    <p class="downloadoption">Download all</p>
+</div>
+<div class="clearfix"></div>
+<div class="downloads">
+    <ul>
+        <li>
+            <p>Loreum ipsum(1.3MB)</p>
+            <i class="downloadicon"></i>
+        </li>
+        <li>
+            <p>Loreum ipsum(1.3MB)</p>
+            <i class="downloadicon"></i>
+        </li>
+    </ul>
+</div>
+<div class="sendform" ng-hide="visibleinnermailopensend">
+    <textarea class="sendmore"></textarea>
+    <div class="sendbutton">
+        <a class="sendmail" href="">Send</a>
+    </div>
+</div>
