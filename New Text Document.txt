@@ -1,0 +1,301 @@
+{           _id:3,
+            tickboxid: 3,
+            tdstarcls: true,
+            subject: "Adam Alphonse",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: true,
+            time: "3 minutes ago",
+            labelname: ["Work"],
+            labelcolor: "btn-redcolor",
+            avatar: true,
+            "Flag" :["inbox","sent"],
+            RepliedFor:[0],
+        }, {
+		    _id:4,
+            tickboxid: 4,
+            tdstarcls: false,
+            subject: "Nydison christopher",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: false,
+            time: "3 minutes ago",
+            labelname: ["Family"],
+            labelcolor: "btn-orangecolor",
+            avatar: false,
+            "Flag" :["inbox","sent"],
+            RepliedFor:[0],
+        }, {
+		    _id:5,
+            tickboxid: 5,
+            tdstarcls: true,
+            subject: "Mathew Aristo",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: true,
+            time: "3 minutes ago",
+            labelname: ["Work"],
+            labelcolor: "btn-redcolor",
+            avatar: true,
+            "Flag" :["Draft"],
+            RepliedFor:[0],
+        }, {
+				    _id:6,
+            tickboxid: 6,
+            tdstarcls: true,
+            subject: "JoE Alphonse",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: false,
+            time: "3 minutes ago",
+            labelname: ["Family"],
+            labelcolor: "btn-orangecolor",
+            avatar: false,
+            "Flag" :["sent"],
+            RepliedFor:[0],
+        }, {
+				    _id:7,
+            tickboxid: 7,
+            tdstarcls: false,
+            subject: "Steve John",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: true,
+            time: "3 minutes ago",
+            labelname: ["Work"],
+            labelcolor: "btn-redcolor",
+            avatar: true,
+            "Flag" :["Draft"],
+            RepliedFor:[0],
+        }, {
+				    _id:8,
+            tickboxid: 8,
+            tdstarcls: true,
+            subject: "Emily Mahi",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: false,
+            time: "3 minutes ago",
+            labelname: ["Work"],
+            labelcolor: "btn-redcolor",
+            avatar: true,
+            "Flag" :["Draft"],
+            RepliedFor:[0],
+        }, {
+				    _id:9,
+            tickboxid: 9,
+            tdstarcls: false,
+            subject: "Danny Alphonse",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: true,
+            time: "3 minutes ago",
+            labelname: ["Work"],
+            labelcolor: "btn-redcolor",
+            avatar: true,
+            "Flag" :["trash"],
+            RepliedFor:[0],
+        }, {
+				    _id:10,
+            tickboxid: 10,
+            tdstarcls: true,
+            subject: "Alphonse Rand",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: true,
+            time: "3 minutes ago",
+            labelname: ["Family"],
+            labelcolor: "btn-orangecolor",
+            avatar: false,
+            "Flag" :["trash"],
+            RepliedFor:[0],
+        }, {
+				    _id:11,
+            tickboxid: 11,
+            tdstarcls: true,
+            subject: "Baskar Ram",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: false,
+            time: "3 minutes ago",
+            labelname: ["Work"],
+            labelcolor: "btn-redcolor",
+            avatar: true,
+            "Flag" :["trash"],
+            RepliedFor:[0],
+        }, {
+				    _id:12,
+            tickboxid: 12,
+            tdstarcls: true,
+            subject: "Jeya Alphonse",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: true,
+            time: "3 minutes ago",
+            labelname: ["Work"],
+            labelcolor: "btn-redcolor",
+            avatar: true,
+            "Flag" :["inbox","sent"],
+            RepliedFor:[0],
+        }, {
+				    _id:13,
+            tickboxid: 13,
+            tdstarcls: false,
+            subject: "Emily Kareena",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: false,
+            time: "3 minutes ago",
+            labelname: ["Work"],
+            labelcolor: "btn-redcolor",
+            avatar: false,
+            "Flag" :["sent"],
+            RepliedFor:[0],
+        }, {
+				    _id:14,
+            tickboxid: 14,
+            tdstarcls: true,
+            subject: "Sharuhk Khan",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: true,
+            time: "3 minutes ago",
+            labelname: ["Work"],
+            labelcolor: "btn-redcolor",
+            avatar: true,
+            "Flag" :["inbox","sent"],
+            RepliedFor:[0],
+        }, {
+				    _id:15,
+            tickboxid: 15,
+            tdstarcls: false,
+            subject: "Daniel Alphonse",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: false,
+            time: "3 minutes ago",
+            labelname: ["Family"],
+            labelcolor: "btn-orangecolor",
+            avatar: false,
+            "Flag" :["inbox","sent"],
+            RepliedFor:[0],
+        }, {
+				    _id:16,
+            tickboxid: 16,
+            tdstarcls: false,
+            subject: "Balaji MSSS",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: true,
+            time: "3 minutes ago",
+            labelname: ["Work"],
+            labelcolor: "btn-redcolor",
+            avatar: true,
+            "Flag" :["inbox","sent"],
+            RepliedFor:[0],
+        }, {
+				    _id:17,
+            tickboxid: 17,
+            tdstarcls: true,
+            subject: "Raghu Jane",
+            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s",
+            attach: false,
+            time: "3 minutes ago",
+            labelname: ["Work"],
+            labelcolor: "btn-redcolor",
+            avatar: true,
+            "Flag" :["inbox","sent"],
+            RepliedFor:[0],
+        }
+
+
+
+
+http://www25.verizon.com/home/verizonglobalhome/ghp_landing.aspx 
+
+6:52:36 PM: http://www25.verizon.com/?lid=//global//residential 
+
+
+http://vdsindia.verizon.com/authenticated/VAR/Forms/NewRequest.aspx - admin access request 
+
+6:53:59 PM: 14 Strawberry ln Robinson PA 15108 
+
+6:54:06 PM: 112 Crane ded ma 02026
+
+FIOS Address
+112  crane ded ma 02026 
+
+7:02:09 PM: 2330 oxford flr1 east meadow ny 11554 
+
+************Staging data checing data ********
+16,maynard,dedham,ma 02026  -- test order MA20001488840
+
+www98.verizon.com 
+
+6:39:39 PM: 
+BuildBundle.aspx 
+
+Kumarasamy, Mohanraj: 
+
+7:58:55 PM: https://www25.verizon.com/foryourhome/ordering/internal/changeapplicationstart.aspx?urc=Y --dont use
+
+8:00:03 PM: 4104840264
+6109487575
+7166750274
+4014387723
+8452254031
+7034300808
+4106023696
+8989006959
+7329222808
+7034912382
+9318003226
+2156591965
+9082773563
+9067007673  
+
+8:00:24 PM: https://www25.verizon.com/ForYourHome/Ordering/Internal/TestStartPage.aspx session id 1935006842
+http://autoproxy.verizon.com/cgi-bin/getproxy
+
+*************************************************
+
+Current sample :
+{
+    _id :17,
+    "tickboxid": "17",
+    "tdstarcls": true,
+    "subject": "Raghu Jane",
+	"fromemailid":"raghujane@gmail.com"
+	"toemailid":"muthuraman33@gmail.com"
+    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "attach": false,
+    "time": timestamp,
+    "labelids": [1,2],
+    "avatar": url or empty,
+	"isread":true,
+    "RepliedFor": [
+      0
+    ],
+    "Flag": [
+      "inbox",
+      "sent"
+    ]
+  }
+  
+{ labelname :"work",
+  labelid:4,
+  labelcolor :"btn-redcolor",
+}
+
+mailthread{{
+
+}
+
+
+**************************************
+coding best practice angular
+
+http://www.johnpapa.net/angular-app-structuring-guidelines/
+http://codingsmackdown.tv/blog/2013/04/19/angularjs-modules-for-great-justice/
+http://danorlando.com/angularjs-architecture-understanding-modules/
+http://henriquat.re/modularizing-angularjs/modularizing-angular-applications/modularizing-angular-applications.html
+****************************************
+
+MSDN subscriber details 	
+First name: 	Muthuraman 
+Last name: 	Selvam 
+Email: 	Muthuraman.Selvam@one.verizon.com 
+
+Subscriber ID: 	MVLSKJ7RSCL7 
+Subscription level: 	Visual Studio Professional with MSDN 
+********************************
+db.webmail.insertMany([{_id :1, tickboxid: 1, tdstarcls: true, subject: "Maria Alphonse", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: false, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: true, Flag: ["inbox","sent"], RepliedFor:[2],},{_id :2, tickboxid: 2, tdstarcls: false, subject: "Madison christopher", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: true, time: "3 minutes ago", labelname: ["Family"], labelcolor: "btn-orangecolor", avatar: false, "Flag" :["inbox","sent"], RepliedFor:[2],},{ _id:3, tickboxid: 3, tdstarcls: true, subject: "Adam Alphonse", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: true, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: true, "Flag" :["inbox","sent"], RepliedFor:[0], }, { _id:4, tickboxid: 4, tdstarcls: false, subject: "Nydison christopher", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: false, time: "3 minutes ago", labelname: ["Family"], labelcolor: "btn-orangecolor", avatar: false, "Flag" :["inbox","sent"], RepliedFor:[0], }])
+db.webmail.insertMany([{ _id:5, tickboxid: 5, tdstarcls: true, subject: "Mathew Aristo", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: true, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: true, "Flag" :["Draft"], RepliedFor:[0], }, { _id:6, tickboxid: 6, tdstarcls: true, subject: "JoE Alphonse", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: false, time: "3 minutes ago", labelname: ["Family"], labelcolor: "btn-orangecolor", avatar: false, "Flag" :["sent"], RepliedFor:[0], }, { _id:7, tickboxid: 7, tdstarcls: false, subject: "Steve John", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: true, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: true, "Flag" :["Draft"], RepliedFor:[0], }, { _id:8, tickboxid: 8, tdstarcls: true, subject: "Emily Mahi", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: false, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: true, "Flag" :["Draft"], RepliedFor:[0], }])
+db.webmail.insertMany([{ _id:9, tickboxid: 9, tdstarcls: false, subject: "Danny Alphonse", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: true, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: true, "Flag" :["trash"], RepliedFor:[0], }, { _id:10, tickboxid: 10, tdstarcls: true, subject: "Alphonse Rand", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: true, time: "3 minutes ago", labelname: ["Family"], labelcolor: "btn-orangecolor", avatar: false, "Flag" :["trash"], RepliedFor:[0], }, { _id:11, tickboxid: 11, tdstarcls: true, subject: "Baskar Ram", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: false, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: true, "Flag" :["trash"], RepliedFor:[0], }, { _id:12, tickboxid: 12, tdstarcls: true, subject: "Jeya Alphonse", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: true, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: true, "Flag" :["inbox","sent"], RepliedFor:[0], }])
+db.webmail.insertMany([{ _id:13, tickboxid: 13, tdstarcls: false, subject: "Emily Kareena", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: false, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: false, "Flag" :["sent"], RepliedFor:[0], }, { _id:14, tickboxid: 14, tdstarcls: true, subject: "Sharuhk Khan", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: true, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: true, "Flag" :["inbox","sent"], RepliedFor:[0], }, { _id:15, tickboxid: 15, tdstarcls: false, subject: "Daniel Alphonse", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: false, time: "3 minutes ago", labelname: ["Family"], labelcolor: "btn-orangecolor", avatar: false, "Flag" :["inbox","sent"], RepliedFor:[0], }, { _id:16, tickboxid: 16, tdstarcls: false, subject: "Balaji MSSS", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: true, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: true, "Flag" :["inbox","sent"], RepliedFor:[0], }, { _id:17, tickboxid: 17, tdstarcls: true, subject: "Raghu Jane", text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s", attach: false, time: "3 minutes ago", labelname: ["Work"], labelcolor: "btn-redcolor", avatar: true, "Flag" :["inbox","sent"], RepliedFor:[0], }])
