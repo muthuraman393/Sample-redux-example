@@ -1,0 +1,1838 @@
+/*
+	styles for lighthouse - fios ordering page
+*/
+/* line 4, ../../scss/app/_lighthouse-ordering.scss */
+.w_fios-plan {
+  /*For Mobiles*/
+}
+@media (max-width: 47.9375em) {
+  /* line 4, ../../scss/app/_lighthouse-ordering.scss */
+  .w_fios-plan {
+    width: 100%;
+    margin: 0 0;
+    float: left;
+    background-color: #f6f6f6;
+  }
+  /* line 11, ../../scss/app/_lighthouse-ordering.scss */
+  .w_fios-plan > .fios_plan-details {
+    width: 100%;
+    padding: 1.125rem;
+    float: left;
+  }
+}
+@media (min-width: 48em) {
+  /* line 4, ../../scss/app/_lighthouse-ordering.scss */
+  .w_fios-plan {
+    width: 100%;
+    margin: 0 0;
+    float: left;
+    background-color: #f6f6f6;
+  }
+  /* line 28, ../../scss/app/_lighthouse-ordering.scss */
+  .w_fios-plan > .fios_plan-details {
+    width: 100%;
+    padding: 1.125rem;
+    float: left;
+  }
+}
+
+/* line 41, ../../scss/app/_lighthouse-ordering.scss */
+.w_accordion {
+  /*For Mobiles*/
+}
+@media (max-width: 47.9375em) {
+  /* line 41, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion {
+    width: 100%;
+    margin: 0 0;
+    background: #fff;
+    min-height: 5.3125rem;
+    border-bottom: 1px solid #cccccc;
+    float: left;
+  }
+  /* line 50, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion[data-selection-options] {
+    display: none;
+  }
+  /* line 53, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion[data-selection-options].active {
+    display: block;
+  }
+  /* line 59, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion[data-internet-options].inactive {
+    display: none;
+  }
+  /* line 64, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks {
+    width: 100%;
+    min-height: 1.5625rem;
+  }
+  /* line 68, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks:hover, .w_accordion > .accordion_blocks:focus {
+    cursor: pointer;
+  }
+  /* line 72, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #4b4b4b;
+  }
+  /* line 77, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div:hover, .w_accordion > .accordion_blocks > div:focus {
+    cursor: pointer;
+  }
+  /* line 81, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.close {
+    color: #4b4b4b;
+  }
+  /* line 85, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.open {
+    color: #000;
+  }
+  /* line 89, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.m_internet-packages {
+    min-height: 6.25rem;
+  }
+  /* line 93, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.accordion_blocks-reveal {
+    min-height: 5.5rem;
+  }
+  /* line 95, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.accordion_blocks-reveal > #SelectedRouter {
+    padding-left: 0.5625rem !important;
+  }
+  /* line 99, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.accordion_blocks-reveal .accordion_blocks-reveal-headline {
+    padding-left: 0.625rem;
+  }
+  /* line 105, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.accordion_blocks-content {
+    padding-bottom: 0.9375rem;
+  }
+  /* line 112, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > .w_circled {
+    width: 7.6875rem;
+    height: 7.6875rem;
+    background: #68c49b;
+    line-height: 7.375rem;
+    display: inline-block;
+    border-radius: 8.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  /* line 122, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > .w_circled:hover, .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > .w_circled:focus {
+    cursor: pointer;
+  }
+  /* line 127, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > .m_internet-choices {
+    min-height: 10.625rem;
+    max-height: 10.625rem;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: #cccccc;
+    margin-bottom: 0;
+    padding: 0 0;
+    background-color: #f6f6f6;
+  }
+  /* line 137, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > .m_internet-choices.selected {
+    background-color: #8ad4f7;
+  }
+  /* line 142, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li.m_router-options {
+    border-top: 1px solid #cccccc;
+  }
+  /* line 147, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > a.m_cart {
+    background-color: #a2a2a2;
+  }
+  /* line 150, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > a.m_cart.selected {
+    background-color: #cd040b;
+  }
+  /* line 160, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks .accordion_blocks-images {
+    padding-left: 0.625rem;
+    width: 65px;
+  }
+  /* line 165, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks .accordion_blocks-headline {
+    padding-top: 1.5625rem;
+  }
+}
+@media (min-width: 48em) {
+  /* line 41, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion {
+    width: 100%;
+    margin: 0 0;
+    background: #fff;
+    min-height: 5.3125rem;
+    border-bottom: 1px solid #cccccc;
+    float: left;
+  }
+  /* line 178, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion[data-selection-options] {
+    display: none;
+  }
+  /* line 181, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion[data-selection-options].active {
+    display: block;
+  }
+  /* line 187, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion[data-internet-options].inactive {
+    display: none;
+  }
+  /* line 192, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks {
+    width: 100%;
+    min-height: 1.5625rem;
+  }
+  /* line 196, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks:hover, .w_accordion > .accordion_blocks:focus {
+    cursor: pointer;
+  }
+  /* line 200, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #4b4b4b;
+  }
+  /* line 205, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div:hover, .w_accordion > .accordion_blocks > div:focus {
+    cursor: pointer;
+  }
+  /* line 209, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.close {
+    color: #4b4b4b;
+  }
+  /* line 213, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.open {
+    color: #000;
+  }
+  /* line 217, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.m_internet-packages {
+    min-height: 6.25rem;
+  }
+  /* line 221, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.accordion_blocks-reveal {
+    min-height: 5.5rem;
+    padding-left: 1rem;
+  }
+  /* line 224, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.accordion_blocks-reveal .accordion_blocks-reveal-headline {
+    padding-left: 0.6875rem;
+  }
+  /* line 229, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div.accordion_blocks-content {
+    padding-bottom: 0.9375rem;
+    padding-left: 1rem;
+  }
+  /* line 237, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > .w_circled {
+    width: 7.6875rem;
+    height: 7.6875rem;
+    background: #68c49b;
+    line-height: 7.375rem;
+    display: inline-block;
+    border-radius: 8.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  /* line 247, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > .w_circled:hover, .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > .w_circled:focus {
+    cursor: pointer;
+  }
+  /* line 252, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > .m_internet-choices {
+    min-height: 10.625rem;
+    max-height: 10.625rem;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: #cccccc;
+    margin-bottom: 0;
+    padding: 0 0;
+    background-color: #f6f6f6;
+  }
+  /* line 262, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > .m_internet-choices.selected {
+    background-color: #8ad4f7;
+  }
+  /* line 267, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li.m_router-options {
+    border-top: 1px solid #cccccc;
+  }
+  /* line 272, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > a.m_cart {
+    background-color: #a2a2a2;
+  }
+  /* line 275, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks > div > div .m_internet-packages > li > a.m_cart.selected {
+    background-color: #cd040b;
+  }
+  /* line 285, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks .accordion_blocks-images {
+    padding-left: 0.625rem;
+    width: 65px;
+  }
+  /* line 290, ../../scss/app/_lighthouse-ordering.scss */
+  .w_accordion > .accordion_blocks .accordion_blocks-headline {
+    padding-top: 1.5625rem;
+  }
+}
+
+/* line 297, ../../scss/app/_lighthouse-ordering.scss */
+.w_checkout-order {
+  /*For Mobiles*/
+}
+@media (max-width: 47.9375em) {
+  /* line 297, ../../scss/app/_lighthouse-ordering.scss */
+  .w_checkout-order {
+    width: 100%;
+    margin: 0 0;
+    min-height: 6.25rem;
+    border-bottom: none;
+  }
+  /* line 305, ../../scss/app/_lighthouse-ordering.scss */
+  .w_checkout-order > .customer-service_blocks {
+    width: 100%;
+    min-height: 9.375rem;
+    padding: 1.5625rem;
+  }
+  /* line 310, ../../scss/app/_lighthouse-ordering.scss */
+  .w_checkout-order > .customer-service_blocks > div {
+    float: left !important;
+  }
+  /* line 315, ../../scss/app/_lighthouse-ordering.scss */
+  .w_checkout-order > .customer-service_blocks > div > div > a:before {
+    color: #cccccc !important;
+  }
+}
+@media (min-width: 48em) {
+  /* line 297, ../../scss/app/_lighthouse-ordering.scss */
+  .w_checkout-order {
+    width: 100%;
+    margin: 0 0;
+    min-height: 6.25rem;
+    border-bottom: none;
+  }
+  /* line 330, ../../scss/app/_lighthouse-ordering.scss */
+  .w_checkout-order > .customer-service_blocks {
+    width: 100%;
+    min-height: 9.375rem;
+    padding: 1.5625rem;
+  }
+  /* line 335, ../../scss/app/_lighthouse-ordering.scss */
+  .w_checkout-order > .customer-service_blocks > div {
+    float: right !important;
+  }
+  /* line 340, ../../scss/app/_lighthouse-ordering.scss */
+  .w_checkout-order > .customer-service_blocks > div > div > a:before {
+    color: #cccccc !important;
+  }
+}
+
+/* line 350, ../../scss/app/_lighthouse-ordering.scss */
+.w_customer-service {
+  /*For Mobiles*/
+}
+@media (max-width: 47.9375em) {
+  /* line 356, ../../scss/app/_lighthouse-ordering.scss */
+  .w_customer-service .m_customer-service > ul > li > div {
+    border-style: none;
+    border-width: 0;
+    margin-bottom: 1.5rem;
+    padding: 1.125rem;
+  }
+}
+@media (min-width: 48em) {
+  /* line 350, ../../scss/app/_lighthouse-ordering.scss */
+  .w_customer-service {
+    display: none;
+  }
+}
+
+/* line 372, ../../scss/app/_lighthouse-ordering.scss */
+.w_plan-details {
+  /*For Mobiles*/
+}
+@media (max-width: 47.9375em) {
+  /* line 376, ../../scss/app/_lighthouse-ordering.scss */
+  .w_plan-details > li > div {
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: #cccccc;
+    margin-bottom: 1.5rem;
+    padding: 1.125rem;
+    background: #f6f6f6;
+  }
+}
+@media (min-width: 48em) {
+  /* line 389, ../../scss/app/_lighthouse-ordering.scss */
+  .w_plan-details > li > div {
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: #cccccc;
+    margin-bottom: 1.5rem;
+    padding: 1.125rem;
+    background: #f6f6f6;
+  }
+}
+
+/* line 403, ../../scss/app/_lighthouse-ordering.scss */
+.w_internet-speeds {
+  width: 8.5rem;
+}
+/* line 406, ../../scss/app/_lighthouse-ordering.scss */
+.w_internet-speeds > .m_internet-speeds {
+  height: 9.0625rem;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: #cccccc;
+  margin-bottom: 0;
+  padding: 0 0;
+  background-color: #f6f6f6;
+  width: 8.5rem;
+}
+
+/* line 418, ../../scss/app/_lighthouse-ordering.scss */
+.w_selection-boxes {
+  width: auto;
+  float: left;
+  margin-left: 0;
+  margin-top: 1.125rem;
+}
+/* line 423, ../../scss/app/_lighthouse-ordering.scss */
+/* line 431, ../../scss/app/_lighthouse-ordering.scss */
+.w_selection-boxes > .selection_number-choices {
+  height: 4.375rem;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: #cccccc;
+  margin-bottom: 0;
+  padding: 0 0;
+  background-color: #f6f6f6;
+  width: 4.375rem;
+  text-align: center;
+  font-size: 2.25rem;
+  position: relative;
+  padding-top: 0.4375rem;
+  color: black;
+}
+@media (min-width: 20rem) and (max-width: 22.5625rem) {
+  /* line 448, ../../scss/app/_lighthouse-ordering.scss */
+  .w_selection-boxes:nth-of-type(5) > .selection_number-choices {
+    border-right: 1px solid #ccc !important;
+    margin-left: 0.75rem !important;
+  }
+  /* line 452, ../../scss/app/_lighthouse-ordering.scss */
+  .w_selection-boxes:nth-of-type(6) > .selection_number-choices {
+    margin-left: 0.75rem !important;
+  }
+}
+/* line 458, ../../scss/app/_lighthouse-ordering.scss */
+.w_selection-boxes.selected > .selection_number-choices {
+  background-color: #8ad4f7;
+  border: none;
+}
+/* line 462, ../../scss/app/_lighthouse-ordering.scss */
+.w_selection-boxes.selected > .selection_number-choices:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  border-color: #ddd white;
+}
+
+/* line 457, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks {
+  width: 8.5rem;
+  margin-left: 0.75rem;
+  margin-top: 1.125rem;
+  vertical-align: top;
+  display: inline-block;
+  float: left;
+}
+/* line 464, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_equipment-choices {
+  height: 9.375rem;
+  border-bottom: 0px;
+  padding: 0;
+  margin-bottom: 0;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: #cccccc;
+  border-top: 0.0625rem solid #cccccc;
+  border-left: 0.0625rem solid #cccccc;
+  border-right: 0.0625rem solid #cccccc;
+  border-bottom: 0rem solid #cccccc;
+  padding: 0 0;
+  background-color: #f6f6f6;
+  width: 8.5rem;
+  position: relative;
+}
+/* line 480, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_equipment-choices > .block_equipment-images {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 485, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_equipment-choices.m_blocks-position {
+  display: table;
+}
+/* line 488, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_equipment-choices.m_blocks_equipment-choices-border {
+  border-bottom: 0.0625rem solid #cccccc;
+}
+/* line 491, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_equipment-choices > div > .m_tv-choices {
+  padding-top: 2.0625rem;
+}
+/* line 495, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_equipment-choices .blocks_choice-cost {
+  position: absolute;
+  bottom: 10px;
+}
+/* line 502, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_equipment-choices .blocks_equipment-points ul li {
+  list-style-position: outside;
+  line-height: 1.2;
+}
+/* line 510, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_equipment-more-less {
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: #cccccc;
+  background-color: #fff;
+  height: 10.8125rem;
+}
+/* line 517, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_equipment-more-less span.vzicon::before {
+  color: #959595;
+  font-size: 2rem;
+}
+/* line 523, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks .blocks_equipment-compare-products-large {
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: #cccccc;
+  background-color: #fff;
+  height: 10.8125rem;
+  display: table;
+}
+/* line 531, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks .blocks_equipment-compare-products-large > p {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 537, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks .blocks_equipment-compare-products-small {
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: #cccccc;
+  background-color: #fff;
+  height: 9.375rem;
+  display: table;
+}
+/* line 545, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks .blocks_equipment-compare-products-small > p {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 551, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_number-choices {
+  height: 3.125rem;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: #cccccc;
+  margin-bottom: 0;
+  padding: 0 0;
+  background-color: #f6f6f6;
+  width: 3.125rem;
+  text-align: center;
+}
+/* line 563, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_customtv-choices {
+  height: 10.25rem;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: #cccccc;
+  margin-bottom: 0;
+  padding: 0 0;
+  background-color: #f6f6f6;
+  width: 8.5rem;
+}
+/* line 573, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_customtv-choices > div > .m_tv-choices {
+  padding-top: 2.0625rem;
+}
+/* line 578, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > .blocks_router-choices {
+  height: 9.0625rem;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: #cccccc;
+  margin-bottom: 0;
+  padding: 0 0;
+  background-color: #f6f6f6;
+  width: 8.5rem;
+  position: relative;
+}
+/* line 591, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks.selected > .blocks_equipment-choices {
+  background-color: #8ad4f7;
+  border-width: 0.0625rem 0 0;
+  border-style: solid none none;
+  border-color: #fff;
+}
+/* line 597, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks.selected > .blocks_equipment-choices:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  border-color: #ddd white;
+}
+/* line 608, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks.selected > .blocks_router-choices {
+  background-color: #8ad4f7;
+  border: 0;
+}
+/* line 612, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks.selected > .blocks_router-choices:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  border-color: #ddd white;
+}
+/* line 623, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks.selected > .blocks_tv-choices {
+  background-color: #8ad4f7;
+}
+/* line 627, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks.selected > .blocks_customtv-choices {
+  background-color: #8ad4f7;
+}
+/* line 631, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks.selected > .blocks_number-choices {
+  background-color: #8ad4f7;
+}
+/* line 637, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > a.blocks_update-internet {
+  background-color: #a2a2a2;
+}
+/* line 640, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > a.blocks_update-internet.selected {
+  background-color: #cd040b;
+}
+/* line 645, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > a.blocks_update-router {
+  background-color: #a2a2a2;
+}
+/* line 648, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > a.blocks_update-router.selected {
+  background-color: #cd040b;
+}
+/* line 653, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > a.blocks_update-tv {
+  background-color: #a2a2a2;
+}
+/* line 656, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > a.blocks_update-tv.selected {
+  background-color: #cd040b;
+}
+/* line 661, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > a.blocks_update-tvpack {
+  background-color: #a2a2a2;
+}
+/* line 664, ../../scss/app/_lighthouse-ordering.scss */
+.w_blocks > a.blocks_update-tvpack.selected {
+  background-color: #cd040b;
+}
+
+/* line 671, ../../scss/app/_lighthouse-ordering.scss */
+.w_shipping-blocks {
+  width: 6.25rem;
+}
+/* line 674, ../../scss/app/_lighthouse-ordering.scss */
+.w_shipping-blocks > .shipping_blocks-choices {
+  height: 10rem;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-color: #cccccc;
+  margin-bottom: 0;
+  padding: 0 0;
+  background-color: #f6f6f6;
+  width: 6.25rem;
+  position: relative;
+}
+/* line 685, ../../scss/app/_lighthouse-ordering.scss */
+.w_shipping-blocks > .shipping_blocks-choices .shipping_blocks-cost {
+  position: absolute;
+  bottom: 10px;
+}
+/* line 692, ../../scss/app/_lighthouse-ordering.scss */
+.w_shipping-blocks.selected > .shipping_blocks-choices {
+  background-color: #8ad4f7;
+  border-width: 0.0625rem 0 0;
+  border-style: solid none none;
+  border-color: #fff;
+}
+/* line 698, ../../scss/app/_lighthouse-ordering.scss */
+.w_shipping-blocks.selected > .shipping_blocks-choices:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  border-color: #ddd white;
+}
+
+/* line 711, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled {
+  width: 4.6875rem;
+  height: 4.6875rem;
+  line-height: 1.3125rem;
+  display: inline-block;
+  border-radius: 8.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  padding-top: 1.5625rem;
+}
+@media (min-width: 13.625em) and (max-width: 15.5625em) {
+  /* line 734, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    padding-top: 0.5rem;
+  }
+  /* line 748, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled > img {
+    width: 2rem;
+  }
+}
+@media (min-width: 61.5rem) {
+  /* line 711, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled {
+    width: 7.5rem;
+    height: 7.5rem;
+    padding-top: 2.8125rem;
+  }
+}
+@media (min-width: 28.75em) and (max-width: 47.9375em) {
+  /* line 711, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled {
+    width: 7.5rem;
+    height: 7.5rem;
+    padding-top: 35px;
+  }
+  .w_circled.m_phonesection {
+    padding-top: 25px;
+  }
+}
+@media (min-width: 48em) and (max-width: 61.4375em) {
+  /* line 711, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled {
+   width: 7.5rem;
+    height: 7.5rem;
+    padding-top: 40px;
+  }
+  .w_circled.m_phonesection {
+    padding-top: 1.5625rem;
+  }
+}
+@media (min-width: 61.5rem) and (max-width: 66.875em) {
+  /* line 711, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled {
+     width: 7.5rem;
+    height: 7.5rem;
+    padding-top: 2.1875rem;
+  }
+}
+@media (min-width: 66.9375rem) {
+  /* line 711, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled {
+    width: 7.5rem;
+    height: 7.5rem;
+    padding-top: 2.1875rem;
+  }
+}
+/* line 745, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.small {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+/* line 750, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue {
+  width: 15.625rem;
+  height: 15.625rem;
+  position: absolute;
+  z-index: 350;
+  left: 22%;
+  top: 70%;
+  cursor: pointer;
+  background-color: #82ceac;
+  padding-top: 1.5625rem;
+}
+/* line 760, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue:before {
+  content: '';
+  width: 3.5625rem;
+  height: 3.5625rem;
+  position: absolute;
+  left: 0.3125rem;
+  top: 0.0625rem;
+  overflow: hidden;
+  background-image: url("../../Images/greencue.svg");
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(-36deg);
+  -moz-transform: rotate(-36deg);
+  -ms-transform: rotate(-36deg);
+  -o-transform: rotate(-36deg);
+  transform: rotate(-36deg);
+}
+/* line 777, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue.inactive {
+  display: none;
+}
+/* line 780, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue.m_visual_cue-mobile {
+  display: none;
+}
+/* line 815, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue > [data-product-cue] {
+  cursor: pointer;
+}
+/* line 820, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue {
+  width: 15.625rem;
+  height: 15.625rem;
+  position: absolute;
+  z-index: 350;
+  left: 22%;
+  top: 70%;
+  cursor: default;
+  background-color: #82ceac;
+  padding-top: 1.5625rem;
+}
+/* line 795, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue:before {
+  content: '';
+  width: 3.5625rem;
+  height: 3.5625rem;
+  position: absolute;
+  left: 0.3125rem;
+  top: 0.0625rem;
+  overflow: hidden;
+  background-image: url("../../Images/greencue.svg");
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(-36deg);
+  -moz-transform: rotate(-36deg);
+  -ms-transform: rotate(-36deg);
+  -o-transform: rotate(-36deg);
+  transform: rotate(-36deg);
+}
+/* line 812, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue.inactive {
+  display: none;
+}
+/* line 815, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue.m_visual_cue-mobile {
+  display: none;
+}
+/* line 856, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue > [data-product-cue] {
+  cursor: pointer;
+}
+/* line 861, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue-top {
+  width: 15.625rem;
+  height: 15.625rem;
+  position: absolute;
+  z-index: 350;
+  right: 9%;
+  top: 95%;
+  cursor: default;
+  background-color: #abe0f9;
+  padding-top: 1.5625rem;
+}
+/* line 830, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue-top:before {
+  content: '';
+  width: 3.5625rem;
+  height: 3.5625rem;
+  position: absolute;
+  left: 11.1875rem;
+  bottom: 12.4375rem;
+  overflow: hidden;
+  background-image: url("../../Images/bluecue.svg");
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(48deg);
+  -moz-transform: rotate(48deg);
+  -ms-transform: rotate(48deg);
+  -o-transform: rotate(48deg);
+  transform: rotate(48deg);
+}
+/* line 846, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue-top.inactive {
+  display: none;
+}
+/* line 893, ../../scss/app/_lighthouse-ordering.scss */
+.w_circled.visual_cue-top > [data-product-cue] {
+  cursor: pointer;
+}
+.w_circled.visual_cue-top > [data-product-cuecart] {
+  cursor: pointer;
+}
+@media (max-width: 47.9375rem) {
+  /* line 857, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled.visual_cue-top {
+    width: 15.625rem;
+    height: 15.625rem;
+    position: absolute;
+    z-index: 350;
+    right: 9%;
+    top: 95%;
+    cursor: default;
+    display: none;
+    background-color: #abe0f9;
+    padding-top: 1.5625rem;
+  }
+  /* line 868, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled.visual_cue-top:before {
+    content: '';
+    width: 3.5625rem;
+    height: 3.5625rem;
+    position: absolute;
+    left: 11.1875rem;
+    bottom: 12.5rem;
+    overflow: hidden;
+    background-image: url("../../Images/bluecue.svg");
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(48deg);
+    -moz-transform: rotate(48deg);
+    -ms-transform: rotate(48deg);
+    -o-transform: rotate(48deg);
+    transform: rotate(48deg);
+  }
+  /* line 885, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled.visual_cue-top.inactive {
+    display: none;
+  }
+  /* line 888, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled.visual_cue-top.active {
+    display: inline-block;
+  }
+  /* line 939, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled.visual_cue-top > [data-product-cue] {
+    cursor: pointer;
+  }
+  /* line 945, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled.visual_cue.m_visual_cue-mobile {
+    width: 15.625rem;
+    height: 15.625rem;
+    position: absolute;
+    display: inline-block;
+    z-index: 350;
+    left: 22%;
+    top: -31%;
+    cursor: default;
+    background-color: #82ceac;
+    padding-top: 1.5625rem;
+  }
+  /* line 905, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled.visual_cue.m_visual_cue-mobile:before {
+    content: '';
+    width: 3.5625rem;
+    height: 3.5625rem;
+    position: absolute;
+    left: 2.1875rem;
+    top: 213px;
+    overflow: hidden;
+    background-image: url("../../Images/greencue.svg");
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(217deg);
+    -moz-transform: rotate(217deg);
+    -ms-transform: rotate(217deg);
+    -o-transform: rotate(217deg);
+    transform: rotate(217deg);
+  }
+  /* line 921, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled.visual_cue.m_visual_cue-mobile.inactive {
+    display: none;
+  }
+  /* line 979, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled.visual_cue > [data-product-cue] {
+    cursor: pointer;
+  }
+}
+
+/* line 930, ../../scss/app/_lighthouse-ordering.scss */
+.w_contract-blocks {
+  width: 10.75rem;
+  float: left;
+  margin-left: 1.125rem;
+  margin-top: 1.125rem;
+  vertical-align: top;
+  display: inline-block;
+}
+/* line 938, ../../scss/app/_lighthouse-ordering.scss */
+.w_contract-blocks > .contract-blocks-choices {
+  height: 17.5rem;
+  margin-bottom: 0;
+  padding: 0 0;
+  background-color: #f6f6f6;
+  width: 10.75rem;
+  position: relative;
+  padding: 0;
+  border-top: 0.0625rem solid #cccccc;
+  border-left: 0.0625rem solid #cccccc;
+  border-right: 0.0625rem solid #cccccc;
+  border-bottom: 0rem solid #cccccc;
+}
+/* line 953, ../../scss/app/_lighthouse-ordering.scss */
+.w_contract-blocks.selected > .contract-blocks-choices {
+  background-color: #8ad4f7;
+  border-width: 0.0625rem 0 0;
+  border-style: solid none none;
+  border-color: #fff;
+}
+/* line 959, ../../scss/app/_lighthouse-ordering.scss */
+.w_contract-blocks.selected > .contract-blocks-choices:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  border-color: #ddd white;
+}
+
+/* line 972, ../../scss/app/_lighthouse-ordering.scss */
+.w_contract-plus-sign {
+  float: left;
+  margin: 1rem 0 1rem 1rem;
+  /*1rem 0 1rem 1rem*/
+  /*padding: rem-calc(16 14);
+  width: rem-calc(52);*/
+}
+/* line 977, ../../scss/app/_lighthouse-ordering.scss */
+.w_contract-plus-sign span.vzicon::before {
+  color: #959595;
+}
+
+@media (max-width: 47.9375rem) {
+  /* line 983, ../../scss/app/_lighthouse-ordering.scss */
+  .w_contract-plus-sign {
+    width: 23.125rem;
+    text-align: center;
+    margin-bottom: 0;
+    clear: left;
+  }
+
+  /* line 990, ../../scss/app/_lighthouse-ordering.scss */
+  .block-offers {
+    clear: left;
+  }
+
+  /* line 994, ../../scss/app/_lighthouse-ordering.scss */
+  .choice-small {
+    height: 8.5rem !important;
+  }
+}
+@media (min-width: 35.625rem) and (max-width: 47.5rem) {
+  /* line 1000, ../../scss/app/_lighthouse-ordering.scss */
+  .choice-large {
+    clear: both;
+  }
+}
+@media (max-width: 22.4375rem) {
+  /* line 1006, ../../scss/app/_lighthouse-ordering.scss */
+  .w_contract-plus-sign {
+    width: 10.9375rem;
+  }
+}
+@media (max-width: 47.9375em) {
+  /* line 1011, ../../scss/app/_lighthouse-ordering.scss */
+  [data-update-cart] {
+    float: left !important;
+  }
+}
+@media (min-width: 48em) {
+  /* line 1011, ../../scss/app/_lighthouse-ordering.scss */
+  [data-update-cart] {
+    float: right !important;
+  }
+}
+
+/* line 1021, ../../scss/app/_lighthouse-ordering.scss */
+.required_ribbon {
+  position: relative;
+  width: 8.3125rem;
+  height: 1.625rem;
+  margin-left: 1.5rem;
+  color: #fff;
+  background-color: #cd040b;
+  text-align: center;
+  line-height: 1.5625rem;
+  font-size: 0.6875rem;
+  top: 0;
+  /*5*/
+  /*@media (min-width: em-calc(768)) {
+      top: rem-calc(62);
+  }*/
+}
+/* line 1033, ../../scss/app/_lighthouse-ordering.scss */
+.required_ribbon.m_optional {
+  background-color: #abe0f9;
+  width: 4.0625rem;
+  top: 0;
+}
+/* line 1038, ../../scss/app/_lighthouse-ordering.scss */
+.required_ribbon.m_optional:before {
+  border-right: 16px solid #abe0f9;
+}
+/* line 1043, ../../scss/app/_lighthouse-ordering.scss */
+.required_ribbon:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 16px solid #cd040b;
+  border-bottom: 13px solid transparent;
+}
+
+/* line 1060, ../../scss/app/_lighthouse-ordering.scss */
+.m_total {
+  text-decoration: none;
+  -webkit-transform: rotate(0.0deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 272, ../../scss/base/_global.scss */
+.m_total:hover {
+  text-decoration: none;
+}
+/* line 276, ../../scss/base/_global.scss */
+.m_total::before {
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'VZIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: inherit;
+  color: currentColor;
+  font-size: 1.5rem;
+  display: inline;
+  position: relative;
+}
+/* line 1063, ../../scss/app/_lighthouse-ordering.scss */
+.m_total:before {
+  content: '\e73f';
+  padding-right: 0;
+  font-size: 1.5rem;
+  color: #cd040b;
+  display: inline-block;
+}
+/* line 1071, ../../scss/app/_lighthouse-ordering.scss */
+.m_total:hover {
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transform: rotate(0.0deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 272, ../../scss/base/_global.scss */
+.m_total:hover:hover {
+  text-decoration: none;
+}
+/* line 276, ../../scss/base/_global.scss */
+.m_total:hover::before {
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'VZIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: inherit;
+  color: currentColor;
+  font-size: 1.5rem;
+  display: inline;
+  position: relative;
+}
+/* line 1075, ../../scss/app/_lighthouse-ordering.scss */
+.m_total:hover:before {
+  content: '\e73f';
+  padding-right: 0;
+  font-size: 1.5rem;
+  color: #a80309;
+  display: inline-block;
+}
+
+/* line 1086, ../../scss/app/_lighthouse-ordering.scss */
+.m_chat {
+  text-decoration: none;
+  -webkit-transform: rotate(0.0deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 272, ../../scss/base/_global.scss */
+.m_chat:hover {
+  text-decoration: none;
+}
+/* line 276, ../../scss/base/_global.scss */
+.m_chat::before {
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'VZIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: inherit;
+  color: currentColor;
+  font-size: 1.5rem;
+  display: inline;
+  position: relative;
+}
+/* line 1089, ../../scss/app/_lighthouse-ordering.scss */
+.m_chat:before {
+  content: '\e65f';
+  padding-right: 0.625rem;
+  font-size: 1.5rem;
+  color: #cd040b;
+  display: inline-block;
+}
+
+/* line 1098, ../../scss/app/_lighthouse-ordering.scss */
+.m_faq {
+  text-decoration: none;
+  -webkit-transform: rotate(0.0deg);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 272, ../../scss/base/_global.scss */
+.m_faq:hover {
+  text-decoration: none;
+}
+/* line 276, ../../scss/base/_global.scss */
+.m_faq::before {
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'VZIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: inherit;
+  color: currentColor;
+  font-size: 1.5rem;
+  display: inline;
+  position: relative;
+}
+/* line 1101, ../../scss/app/_lighthouse-ordering.scss */
+.m_faq:before {
+  content: '\e677';
+  padding-right: 0.625rem;
+  font-size: 1.5rem;
+  color: #cd040b;
+  display: inline-block;
+}
+
+/* line 1110, ../../scss/app/_lighthouse-ordering.scss */
+.loader.center {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
+/* line 1117, ../../scss/app/_lighthouse-ordering.scss */
+.headline-wrapper {
+  display: table;
+  height: 5.5rem;
+}
+/* line 1120, ../../scss/app/_lighthouse-ordering.scss */
+.headline-wrapper .headline-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media (max-width: 47.9375em) {
+  /* line 1129, ../../scss/app/_lighthouse-ordering.scss */
+  .main.m_ordering-page {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 48em) {
+  /* line 1135, ../../scss/app/_lighthouse-ordering.scss */
+  .main.m_ordering-page {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+}
+
+@media (min-width: 36.9375rem) {
+  /* line 1143, ../../scss/app/_lighthouse-ordering.scss */
+  [data-id="international"] {
+    margin-bottom: 1.5rem;
+  }
+
+  /* line 1146, ../../scss/app/_lighthouse-ordering.scss */
+  [data-id="international"].active > [data-id="international"] {
+    margin-bottom: 0;
+  }
+}
+/**
+ * To be removed code
+ */
+/* line 1155, ../../scss/app/_lighthouse-ordering.scss */
+.w_modal iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1162, ../../scss/app/_lighthouse-ordering.scss */
+.small-display-table {
+  display: table;
+  height: 9.0625rem;
+}
+
+/* line 1166, ../../scss/app/_lighthouse-ordering.scss */
+.display-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*#AjaxLoader.page-overlay{
+    position:absolute;
+} */
+/* line 1175, ../../scss/app/_lighthouse-ordering.scss */
+.w_circle-icon {
+  background-color: #cd040b !important;
+}
+/* line 1178, ../../scss/app/_lighthouse-ordering.scss */
+.w_circle-icon:hover {
+  background-color: #a80309 !important;
+}
+
+/* line 1187, ../../scss/app/_lighthouse-ordering.scss */
+.w_estimate-table table tr td {
+  padding: 0.625rem;
+  border-bottom: none;
+  border-top: none;
+}
+/* line 1192, ../../scss/app/_lighthouse-ordering.scss */
+.w_estimate-table table tr th {
+  padding: 0.625rem;
+}
+
+/* line 1247, ../../scss/app/_lighthouse-ordering.scss */
+.modal-overlay {
+  position: fixed;
+  top: 5%;
+  left: 10%;
+  bottom: 5%;
+  right: 10%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: -1;
+  -moz-transition: opacity 0.3s 0s, z-index 0s 0.3s, background-color 0s 0.3s;
+  -o-transition: opacity 0.3s 0s, z-index 0s 0.3s, background-color 0s 0.3s;
+  -webkit-transition: opacity 0.3s, z-index 0s, background-color 0s;
+  -webkit-transition-delay: 0s, 0.3s, 0.3s;
+  transition: opacity 0.3s 0s, z-index 0s 0.3s, background-color 0s 0.3s;
+}
+@media (max-width: 30em) {
+  /* line 1247, ../../scss/app/_lighthouse-ordering.scss */
+  .modal-overlay {
+    left: 2%;
+    right: 2%;
+  }
+}
+/* line 1221, ../../scss/app/_lighthouse-ordering.scss */
+.modal-overlay.absolute {
+  position: absolute;
+}
+/* line 1225, ../../scss/app/_lighthouse-ordering.scss */
+.modal-overlay.active {
+  z-index: 1001;
+  opacity: 1;
+  -moz-transition: opacity 0.3s 0s, z-index 0s 0s;
+  -o-transition: opacity 0.3s 0s, z-index 0s 0s;
+  -webkit-transition: opacity 0.3s, z-index 0s;
+  -webkit-transition-delay: 0s, 0s;
+  transition: opacity 0.3s 0s, z-index 0s 0s;
+}
+/* line 1233, ../../scss/app/_lighthouse-ordering.scss */
+.modal-overlay.active:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 400;
+  background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+}
+
+/* line 1253, ../../scss/app/_lighthouse-ordering.scss */
+a[data-order-button] {
+  width: 11.25rem;
+}
+/* line 1255, ../../scss/app/_lighthouse-ordering.scss */
+a[data-order-button]:before {
+  content: none;
+}
+/* line 1259, ../../scss/app/_lighthouse-ordering.scss */
+a[data-shopbundles-button] {
+  width: 11.25rem;
+  padding: 0.75rem 2.375rem 0.75rem 1.875rem;
+}
+/* line 1262, ../../scss/app/_lighthouse-ordering.scss */
+a[data-shopbundles-button]:before {
+  content: none;
+}
+@media (max-width: 47.9375em) {
+  /* line 1267, ../../scss/app/_lighthouse-ordering.scss */
+  a[data-order-button] {
+    width: 7.8125rem;
+    padding: 0.75rem 2.0625rem 0.75rem 0.5625rem;
+  }
+  /* line 1270, ../../scss/app/_lighthouse-ordering.scss */
+  a[data-order-button]:before {
+    content: none;
+  }
+  /* line 1274, ../../scss/app/_lighthouse-ordering.scss */
+  a[data-shopbundles-button] {
+    width: 8.4375rem;
+    padding: 0.75rem 1rem 0.75rem 0.5625rem;
+  }
+  /* line 1277, ../../scss/app/_lighthouse-ordering.scss */
+  a[data-shopbundles-button]:before {
+    content: none;
+  }
+}
+
+/* line 1286, ../../scss/app/_lighthouse-ordering.scss */
+.overlay-icons li span {
+  color: black;
+  text-align: left;
+  display: block;
+}
+@media (min-width: 20rem) and (max-width: 22.5rem) {
+  /* line 1292, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-wrapper {
+    width: 25%;
+  }
+}
+@media (min-width: 48rem) and (max-width: 51.25rem) {
+  /* line 1292, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-wrapper {
+    width: 29%;
+   }
+}
+@media (min-width: 20em) and (max-width: 28.6875em) {
+  /* line 1362, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-wrapper span:nth-of-type(1) {
+    width: 4.375rem;
+  }
+}
+@media (min-width: 28.75em) and (max-width: 47.9375em) {
+  /* line 1362, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-wrapper span:nth-of-type(1) {
+    width: 7.5rem;
+  }
+}
+@media (min-width: 48em) and (max-width: 66.875em) {
+  /* line 1362, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-wrapper span:nth-of-type(1) {
+    width: 7.5rem;
+  }
+}
+@media (min-width: 18.125em) and (max-width: 19.9375em) {
+  /* line 1435, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-plus-wrapper .overlay-plus {
+    padding-top: 1rem;
+  }
+} 
+@media (min-width: 18.125em) and (max-width: 19.9375em) {
+  /* line 1372, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-wrapper span:nth-of-type(1) {
+    width: 3.75rem;
+  }
+} 
+@media (min-width: 18.125em) and (max-width: 19.9375em) {
+  /* line 734, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled {
+    width: 3.75rem;
+    height: 3.75rem;
+    padding-top: 1rem;
+  }
+  .w_circled.m_phonesection {
+    padding-top: 1rem;
+  }
+} 
+@media (min-width: 18.125em) and (max-width: 19.9375em) {
+  /* line 1435, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-plus-wrapper .overlay-plus {
+    padding-top: 1.25rem;
+  }
+} 
+@media (min-width: 66.9375rem) {
+  /* line 1362, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-wrapper span:nth-of-type(1) {
+    width: 7.5rem;
+  }
+}
+/* line 1380, ../../scss/app/_lighthouse-ordering.scss */
+.overlay-icons .overlay-plus-wrapper {
+  width: 5%;
+  padding: 0;
+  margin: 0;
+  /*@media (min-width:rem-calc(320)){
+      margin-left:rem-calc(18);
+  }
+  @media (min-width:rem-calc(360)){
+      margin-left:rem-calc(14);
+  }
+  @media (min-width:rem-calc(400)){
+      margin-left:rem-calc(8);
+  }
+  @media (min-width:rem-calc(440)){
+      margin-left:0;
+  }
+  @media (min-width:rem-calc(460)){
+      margin-left:rem-calc(35);
+  }
+  @media (min-width:rem-calc(520)){
+      margin-left:rem-calc(20);
+  }
+  @media (min-width:rem-calc(580)){
+      margin-left:rem-calc(10);
+  }
+  @media (min-width:rem-calc(640)){
+      margin-left:rem-calc(0);
+  }
+  @media (min-width:rem-calc(720)){
+  }
+  @media (min-width:rem-calc(768)){
+      margin-left: rem-calc(16);
+  }
+  @media (min-width:rem-calc(860)){
+      margin-left: rem-calc(8);
+  }
+  @media (min-width:rem-calc(1071)){
+      margin-left: rem-calc(20);
+  }
+  @media (min-width:rem-calc(1300)){
+      margin-left: rem-calc(0);
+  }*/
+}
+/* line 1342, ../../scss/app/_lighthouse-ordering.scss */
+.overlay-icons .overlay-plus-wrapper .overlay-plus {
+  text-align: center;
+  /*@media (max-width: rem-calc(360)){
+      text-align:center;
+  }*/
+  /*@media (min-width: rem-calc(720)){
+      text-align:left;
+  }*/
+  /*@media (min-width:rem-calc(984)){
+      text-align:right;
+  }*/
+ /*@media (max-width: rem-calc(983)){
+    padding-top:rem-calc(30);
+}
+  @media (min-width: rem-calc(984)){
+    padding-top:rem-calc(50);
+}*/
+  /*@media (max-width: rem-calc(1024)){
+    text-align:center;
+}*/
+}
+@media (min-width: 20rem) {
+  /* line 1342, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-plus-wrapper .overlay-plus {
+    padding-top: 1.875rem;
+  }
+}
+@media (min-width: 28.75rem) {
+  /* line 1342, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-plus-wrapper .overlay-plus {
+    padding-top: 3.125rem;
+  }
+}
+@media (min-width: 48rem) {
+  /* line 1342, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-plus-wrapper .overlay-plus {
+    padding-top: 50px;
+    /*text-align:center;*/
+  }
+}
+@media (min-width: 53.75rem) {
+  /* line 1342, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-plus-wrapper .overlay-plus {
+    padding-top: 1.5625rem;
+    /*text-align:left;*/
+  }
+}
+@media (min-width: 53.8125rem) {
+  /* line 1342, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-plus-wrapper .overlay-plus {
+    padding-top: 3.1875rem;
+    /*text-align:center;*/
+  }
+}
+@media (min-width: 66.9375rem) {
+  /* line 1342, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-plus-wrapper .overlay-plus {
+    padding-top:  3.1875rem;
+    /*text-align:center;*/
+  }
+}
+/* line 1471, ../../scss/app/_lighthouse-ordering.scss */
+.w_self-clock {
+  width: 1.375rem !important;
+  height: 1.375rem !important;
+}
+
+
+/*styles for tab widget */
+/* line 3, ../../scss/app/_tabs-widget.scss */
+.w_tabs.m_cart-view > .tabs_tab.active {
+  border-bottom: 0.25rem solid transparent;
+  color: #fff;
+  cursor: default;
+  background: #cd040b;
+}
+/* line 11, ../../scss/app/_tabs-widget.scss */
+.w_tabs.m_cart-view > .tabs_tab {
+  color: #959595;
+  line-height: 1;
+  vertical-align: middle;
+  padding: 0.375rem 0.375rem 0.375rem 0.375rem !important;
+  text-align: center;
+}
+
+/* line 21, ../../scss/app/_tabs-widget.scss */
+.cart-tabs ul li {
+  list-style-type: none;
+}
+
+@media (min-width: 15.625em) and (max-width: 18.0625em) {
+  /* line 1389, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-wrapper span:nth-of-type(1) {
+    width: 2.5rem;
+  }
+}
+
+@media (min-width: 15.625em) and (max-width: 18.0625em) {
+  /* line 1455, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-plus-wrapper .overlay-plus {
+    padding-top: 0.9375rem;
+  }
+}
+
+
+@media (min-width: 15.625em) and (max-width: 18.0625em) {
+  /* line 734, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    padding-top: 0.5rem;
+  }
+  /* line 747, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled > img {
+    width: 2rem;
+  }
+}
+
+@media (min-width: 13.625em) and (max-width: 15.5625em) {
+  /* line 734, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    padding-top: 0.5rem;
+  }
+  /* line 748, ../../scss/app/_lighthouse-ordering.scss */
+  .w_circled > img {
+    width: 2rem;
+  }
+}
+@media (min-width: 13.625em) and (max-width: 15.5625em) {
+  /* line 1411, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-wrapper span:nth-of-type(1) {
+    width: 2.5rem;
+  }
+}
+@media (min-width: 13.625em) and (max-width: 19.9375em) {
+  /* line 1441, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-plus-wrapper {
+    width: auto;
+  }
+}
+@media (min-width: 13.625em) and (max-width: 15.5625em) {
+  /* line 1487, ../../scss/app/_lighthouse-ordering.scss */
+  .overlay-icons .overlay-plus-wrapper .overlay-plus {
+    padding-top: 0.9375rem;
+  }
+}  
+
+@media (min-width:768px){
+.w_selection-boxes:nth-child(6) {
+    margin-left: 12px !important;
+}
+}
+.height-0 {
+    height: 0;
+}
+
+.w_blocks.current-text + .w_blocks {
+    margin-top: 20px !important;
+}
+.w_blocks.current-text {
+    margin-top: -3px !important;
+    
+}
+.w_selection-boxes{
+    position: relative;
+    top: 2px;
+}
+.w_selection-boxes.current-text + .w_selection-boxes{
+    margin-top: 18px !important;
+}
+.w_selection-boxes.current-text {
+    margin-top: -3px !important;
+}
+
+.section-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  height: 100%;
+  z-index: 820;
+}
+.section-loader {
+    height: 100%;
+    text-align: center;
+    width: 100% !important;
+    position: relative;
+    z-index: 200;
+}
+
+.belowFDVheader {padding: 0 24px;margin-bottom: 15px;clear:both;}
+.belowFDVheader  span {color:#CD040B !important; font-size:16px;}
+
+/*! VZRF 2.20.0 */
+/* line 3, ../../scss/app/fios-suggesstions.scss */
+.header-suggestion-select, .fios-suggestion-select {
+  width: auto;
+  border: 0 none;
+  background-color: transparent;
+  display: inline;
+  margin-bottom:0;
+ 
+}
+/* line 11, ../../scss/app/fios-suggesstions.scss */
+.header-suggestion-select.value, .fios-suggestion-select.value {
+  background-color: transparent;
+  color: #959595;
+  background-position: 100% 0.4rem, -0.75rem 0.9375rem !important;
+}
+/* line 15, ../../scss/app/fios-suggesstions.scss */
+.header-suggestion-select.value:focus, .fios-suggestion-select.value:focus {
+  background-color: transparent !important;
+}
+/* line 19, ../../scss/app/fios-suggesstions.scss */
+.header-suggestion-select.value.chosen, .fios-suggestion-select.value.chosen {
+  color: #333;
+}
+
+/* line 30, ../../scss/app/fios-suggesstions.scss */
+[data-select-id='selectFiosSuggesstion'] li:first-child {
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #ccc;
+  display: none !important;
+
+}
+/* line 31, ../../scss/app/fios-suggesstions.scss */
+[data-select-id='selectFiosSuggesstion'] ul ,[data-select-id='bundleSelect'] ul{
+  min-width: 12.5rem;
+}
+/* line 36, ../../scss/app/fios-suggesstions.scss */
+[data-select-id='selectFiosSuggesstion'] li:first-child:before {
+  content: "" !important;
+}
+
+/* line 44, ../../scss/app/fios-suggesstions.scss */
+.w_modal.m_suggesstion-modal {
+  max-width: 40.625rem;
+  margin-left: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+@media only screen and (max-width: 30rem) {
+  /* line 44, ../../scss/app/fios-suggesstions.scss */
+  .w_modal.m_suggesstion-modal {
+    width: 100%;
+    height: 100%;
+    top: 0% !important;
+    margin-top: 0 !important;
+    max-height: 100%;
+  }
+}
+#frmBuildFios ~ .w_fancy-options {
+    z-index: 800 !important;
+}
+#contractSelect{
+    min-width:200px;
+}
